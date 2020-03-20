@@ -2,7 +2,7 @@
 This is a payment gateway app created using django-paypal
 
 Instructions to follow:
-1) install django-paypal using ### pip install django-paypal
+1) install django-paypal using pip install django-paypal
 2) In your project go to settings.py and add 'paypal.standard.ipn' in the
    INSTALLED_APPS. This adds paypal application to your project.
 3) In settings.py , add PAYPAL_RECEIVER_EMAIL='your paypal receiver email'.
